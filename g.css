@@ -1,0 +1,354 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background: rgb(26, 188, 156);
+    background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+@keyframes float {
+    0% {
+        
+        transform: translatey(0px);
+    }
+    50% {
+        
+        transform: translatey(-20px);
+    }
+    100% {
+        
+        transform: translatey(0px);
+    }
+    
+}
+
+#gp{
+    position: absolute;
+    left: 45%;
+    color: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    color: rgb(84, 87, 84);
+  
+    text-shadow: 1px 1px 0px rgba(30, 240, 11, 0.6);
+   
+    animation: float 5s ease-in-out infinite;
+    
+            
+
+}
+.rectangle{
+            position: absolute;
+            left: 30%;
+            top: 20%;
+            width: 6px;
+            height: 350px;
+            box-sizing: border-box;
+            color: black;
+            background-color: black;
+            
+            overflow: hidden;
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+            
+            
+}
+#rectangle{
+    position: absolute;
+    left: 30%;
+    top: 73%;
+    width: 35%;
+    height:6px;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    
+    
+    
+}
+
+#d1{
+    position: absolute;
+    left: 5%;
+    top: 29%;
+
+}
+#d2{
+    position: absolute;
+    left: 5%;
+    top: 39%;
+
+
+}
+#d3{
+    position: absolute;
+    left: 5%;
+    top: 49%;
+
+}
+
+#r1{
+    position: absolute;
+    left: 30.4%;
+    top: 25%;
+    width: 0px;
+    height:30px;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(189, 4, 4);
+    
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    
+    
+    
+}
+#r2{
+    position: absolute;
+    left: 30.4%;
+    top: 45%;
+    width:0px;
+    height:30px;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(70, 243, 18);
+    
+    overflow: hidden;
+    
+    transform: translatey(0px);
+    
+    
+    
+}
+#r3{
+    position: absolute;
+    left: 30.4%;
+    top: 63%;
+    width: 0px;
+    height:30px;
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(33, 18, 243);
+    
+    overflow: hidden;
+    
+    transform: translatey(0px);
+     
+    
+}
+#cl{
+    position: absolute;
+    left: 5%;
+    top: 59%;
+}
+#bttt{
+    width:70px;
+    
+    
+  
+    background: #FFC2C2;
+    border-radius: px;
+    background-color:rgb(30, 38, 153) ;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)     ;
+        
+      height: 42px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      font-weight: 650;
+      color: white;
+      background-color: #244dbd;
+      border: none;
+      border-radius: 7px;
+      box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none; 
+}
+#tt{
+    
+    width:70px;
+    
+    
+  
+    background: #FFC2C2;
+    border-radius: px;
+    background-color:rgb(30, 38, 153) ;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)     ;
+        
+      height: 42px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      font-weight: 650;
+      color: white;
+      background-color: #244dbd;
+      border: none;
+      border-radius: 7px;
+      box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none; 
+}
+#btt{
+   
+   
+    width:70px;
+    
+    
+  
+    background: #FFC2C2;
+    border-radius: px;
+    background-color:rgb(30, 38, 153) ;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)     ;
+        
+      height: 42px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      font-weight: 650;
+      color: white;
+      background-color: #244dbd;
+      border: none;
+      border-radius: 7px;
+      box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none; 
+}
+#btt:hover{
+    box-shadow: 1px 3px 0px rgb(24, 8, 92); 
+
+}
+#bttt:hover{
+    box-shadow: 1px 3px 0px rgb(24, 8, 92); 
+
+}
+#tt:hover{
+    box-shadow: 1px 3px 0px rgb(24, 8, 92); 
+
+}
+
+
+#btn{
+    width:60%;
+height: 29px;
+left: 10.9%;
+top: 31%;
+
+background: #FFFDFD;
+color: black;
+
+border-radius: 6px;
+
+border-radius: 6px;
+border-radius: 10px;
+    
+    font-size: 10px;
+    text-align: start;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 3px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-style: unset;
+    outline: none;
+    box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+    
+
+
+}
+
+#bt{
+    width:60%;
+height: 29px;
+left: 10.9%;
+top: 31%;
+
+background: #FFFDFD;
+color: black;
+
+border-radius: 6px;
+
+border-radius: 6px;
+border-radius: 10px;
+    
+    font-size: 10px;
+    text-align: start;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 3px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-style: unset;
+    outline: none;
+    box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+    
+
+
+}
+
+#tn{
+    width:60%;
+height: 29px;
+left: 10.9%;
+top: 31%;
+
+background: #FFFDFD;
+color: black;
+
+border-radius: 6px;
+
+border-radius: 6px;
+border-radius: 10px;
+    
+    font-size: 10px;
+    text-align: start;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 3px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-style: unset;
+    outline: none;
+    box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+    
+
+
+}
+#cl{
+    width:20%;
+    height: 29px;
+    left: 3.9%;
+    top:61%;
+    
+    background: #ff2323;
+    color: rgb(245, 245, 245);
+    
+    border-radius: 6px;
+    
+    border-radius: 6px;
+    border-radius: 10px;
+    
+        
+        font-size: 10px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 3px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border-style: unset;
+        outline: none;
+        box-shadow: 3px 5px 0px rgb(24, 8, 92); 
+        
+}
+#cl:hover{
+    box-shadow: 1px 3px 0px rgb(24, 8, 92); 
+
+}
+
+
+
+
